@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystals Collector</title>
+<!-- Link to jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Link to Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!-- Link to CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<div class="container">
+			<div class="jumbotron">
+				<h1><strong>Crystal Collector
+				</strong></h1>
+			</div>
+		</div>
+</head>
+
+<body>
+	<div class="container">
+	<div class="row">
+		<div class="col-md-6",>
+	<p>You will be given a random number at the start of the game.</p>
+    
+    <p>There are four crystals below. Clicking one of the crystals will add a specific amount of points to your final score.</p>
+    
+    <p>You win the game by matching your total score to the random number.</p>
+     
+    <p>The value of each crystal is hidden from you until the crystal is clicked.</p>
+    
+    <p>Each time the game starts, the value of crystals will be changed.</p>
+    
+    	</div>
+    	<div class="col-md-4">
+    	</div>
+	</div>
+<div class="row">
+	<div class = "col-md-4">
+
+	<p id="randomResult"></p>
+
+	<div class = "col-md-8">
+	</div>
+</div>
+            
+            <div class="crystals">
+                
+            </div>  
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-4">
+	<p id="previous"></p>
+
+	<p id="wins"></p>
+
+	<p id="losses"></p>
+
+
+</div>
+
+
+<!-- Link to jQuery file -->
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+
+
+</html>

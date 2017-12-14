@@ -1,0 +1,25 @@
+
+
+.crystals{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crystal{
+    border:10px solid black;
+    height:200px;
+    width:200px;
+}
+
+img{
+	width:60px;
+}
+
+body{
+	background-color: lightblue;
+}
+
+.col-md-6{
+	background-color: lightgray;
+}
