@@ -3,7 +3,7 @@ A random number will be displayed at the start of the game.
 
 When the player clicks on a crystal it will add a specific amount of points to the player's total score.
 
-The game is won if their total score matches the random number and the game is lost if the player's total score goes above the random number.
+The game is won if the player's total score matches the random number. The game is lost if the player's total score goes above the random number.
 
 The value of each crystal is not shown to the player, but their total score is displayed and updated after each crystal is clicked. The number of games won and lost will be displayed.
 
